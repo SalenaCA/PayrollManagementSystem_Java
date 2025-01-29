@@ -5,7 +5,7 @@ import java.io.Serializable;
 public abstract class Employee implements Payable, Serializable {
     protected String name;
     protected int id;
-
+    // constructor
     public Employee(String empName, int empId){
         this.name = empName;
         this.id = empId;
